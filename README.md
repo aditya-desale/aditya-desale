@@ -1,37 +1,41 @@
-Hey, I'm Aditya Desale 👋
-Developer · Founder · AI PM — from India 🇮🇳
-Self-taught, Already shipping real products solo — AI platforms, EdTech tools, trust engines. I think in PRDs and iterate in production.
-![Portfolio](https://img.shields.io/badge/Portfolio-adityadesale.online-black?style=for-the-badge)
-![Kendu AI](https://img.shields.io/badge/Kendu_AI-kendu.online-6A0DAD?style=for-the-badge)
-![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)
-![Email](https://img.shields.io/badge/Email-adidesle@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)
+<div align="center">
+  <h1>Aditya Desale</h1>
+  <p><b>Developer &nbsp;·&nbsp; Founder &nbsp;·&nbsp; AI PM</b></p>
+  <p>
+    <a href="https://adityadesale.online"><img src="https://img.shields.io/badge/🌐 Portfolio-000000?style=for-the-badge" /></a>&nbsp;
+    <a href="https://kendu.online"><img src="https://img.shields.io/badge/🤖 Kendu AI-6A0DAD?style=for-the-badge" /></a>&nbsp;
+    <a href="https://linkedin.com/in/aditya-desale"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>&nbsp;
+    <a href="mailto:adidesle@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  </p>
+  <p><i>Self-taught. First year of college. Already shipping real AI products — solo, end to end.</i></p>
+</div>
 ---
-🚀 What I've Built
-🤖 Kendu AI — Conversational AI Platform
-Full-featured AI platform with voice I/O, 8 persona modes, image generation, PDF export, folder management, and calendar scheduler — shipped as a single HTML file.
-`Groq API` `Llama 4` `Vanilla JS` `Voice API` `Netlify`
-📚 NotesMind — EdTech Platform
-Transforms handwritten & typed notes into 3D visual explanations. 6 study games, AI doubt solver, voice tutor, 10 languages — built for JEE/NEET/CBSE students.
-`Three.js` `AI Vision` `Voice API` `Netlify`
-🛡️ VeriAI — Trust Verification Engine
-Detects fake reviews, deepfakes, and misinformation in under 3 seconds. 5 scan modes, freemium pricing, personal dashboard.
-`Node.js` `REST API` `Railway` `AI Analysis`
+🚀 Shipped Products
+Project	What it does	Stack
+🤖 Kendu AI	Full AI platform — voice I/O, 8 personas, image gen, PDF export	Groq · Llama 4 · JS · Netlify
+📚 NotesMind	Turns notes into 3D visual explanations — 6 games, 10 languages	Three.js · AI Vision · Netlify
+🛡️ VeriAI	Detects fake reviews, deepfakes & misinformation in <3 seconds	Node.js · REST API · Railway
 ---
-🛠️ Tech Stack
-Frontend — HTML · CSS · JS · React · Canvas · WebGL  
-Backend — Node.js · Express · REST APIs · Serverless  
-AI / LLMs — Groq · Llama 4 · Claude API · Prompt Engineering  
-Deploy — Netlify · Railway · Vercel · CI/CD  
-Product — PRDs · User Stories · Roadmapping · Agile · Sprints  
-AI PM — AI Feature Design · LLM Product Thinking · Evals · AI UX
+🛠️ Stack
+```
+Frontend   →  HTML · CSS · JavaScript · React · Canvas · WebGL
+Backend    →  Node.js · Express · REST APIs · Serverless
+AI / LLMs  →  Groq · Llama 4 · Claude API · Prompt Engineering
+Deploy     →  Netlify · Railway · Vercel
+PM         →  PRDs · Roadmaps · User Stories · Agile · Sprints
+AI PM      →  LLM Feature Design · Evals · AI UX · Prompt Strategy
+```
 ---
-💬 Philosophy
-> *"I don't wait for the right tools or the right time. I ship with what I have, learn what I need, and build what others said couldn't be done solo."*
+💬 Quote
+> *"I don't wait for the right tools or the right time.*
+> *I ship with what I have, learn what I need,*
+> *and build what others said couldn't be done solo."*
 ---
-📬 Let's Connect
-🌐 adityadesale.online
-🤖 kendu.online
-💼 linkedin.com/in/aditya-desale
-📧 adidesle@gmail.com
+📬 Contact
+Email — adidesle@gmail.com  
+Portfolio — adityadesale.online  
+LinkedIn — linkedin.com/in/aditya-desale
 ---
-Built with obsession. // AD · SYS v2.6.1
+<div align="center">
+  <sub>Built with obsession</sub>
+</div>
