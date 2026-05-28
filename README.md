@@ -73,4 +73,4 @@ Detects fake reviews, deepfakes, and misinformation in under 3 seconds. 5 scan m
 
 ---
 
-<div align="center"><sub>Built with obsession · AD // SYS v2.6.1</sub></div>
+<div align="center"><sub>Built with obsession</sub></div>
