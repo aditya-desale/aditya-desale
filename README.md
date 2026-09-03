@@ -2,7 +2,7 @@
 
 <h1>Aditya Desale</h1>
 
-<h3>Developer &nbsp;·&nbsp; Founder &nbsp;·&nbsp; PM</h3>
+<h3>Developer &nbsp;·&nbsp; Founder &nbsp;·&nbsp; AI PM</h3>
 
 <p><i>Self-taught. First year of college. Already shipping real AI products — solo, end to end.</i></p>
 
