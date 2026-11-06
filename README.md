@@ -15,7 +15,7 @@
 <br><br>
 
 <a href="https://github.com/aditya-desale">
-  <img src="https://streak-stats.demolab.com?user=aditya-desale&hide_current_streak=true&hide_longest_streak=true&card_width=200" alt="GitHub Contributions" />
+<img src="https://img.shields.io/badge/GitHub_Contributions-44-238636?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Contributions: 44" />
 </a>
 
 </div>
