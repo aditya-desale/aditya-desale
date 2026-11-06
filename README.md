@@ -12,27 +12,11 @@
 <a href="https://www.linkedin.com/in/aditya-desale-40b709335"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>&nbsp;
 <a href="mailto:adidesle@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
 
-<br><br>
-
-<!-- CONTRIBUTIONS:START -->
-<a href="https://github.com/aditya-desale">
-<img src="https://img.shields.io/badge/GitHub_Contributions-44-238636?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Contributions: 44" />
-</a>
-<!-- CONTRIBUTIONS:END -->
-
 </div>
 
 ---
 
 ## 🚀 Shipped Products
-
-### 📄 [iLoveResume](https://iloveresume.online) — Resume Building Platform
-
-Built and deployed a resume platform focused on helping users build, check, and tailor their resumes. Worked across product design, feature development, testing, and deployment.
-
-**Focus:** Resume Building · AI-Assisted Development · Product Design · Testing · Netlify
-
----
 
 ### 🤖 [Kendu AI](https://kendu.online) — Conversational AI Platform
 
