@@ -14,9 +14,11 @@
 
 <br><br>
 
+<!-- CONTRIBUTIONS:START -->
 <a href="https://github.com/aditya-desale">
 <img src="https://img.shields.io/badge/GitHub_Contributions-44-238636?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Contributions: 44" />
 </a>
+<!-- CONTRIBUTIONS:END -->
 
 </div>
 
