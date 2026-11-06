@@ -1,0 +1,102 @@
+
+name: Update GitHub Contribution Count
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Update contribution count
+        env:
+          GH_TOKEN: ${{ secrets.CONTRIBUTIONS_TOKEN }}
+        run: |
+          python3 - <<'PY'
+          import json
+          import os
+          import re
+          import urllib.request
+          from datetime import datetime, timezone
+
+          query = """
+          query($login: String!, $from: DateTime!, $to: DateTime!) {
+            user(login: $login) {
+              contributionsCollection(from: $from, to: $to) {
+                contributionCalendar {
+                  totalContributions
+                }
+              }
+            }
+          }
+          """
+
+          payload = {
+              "query": query,
+              "variables": {
+                  "login": "aditya-desale",
+                  "from": "2024-05-30T00:00:00Z",
+                  "to": datetime.now(timezone.utc).isoformat()
+              }
+          }
+
+          request = urllib.request.Request(
+              "https://api.github.com/graphql",
+              data=json.dumps(payload).encode(),
+              headers={
+                  "Authorization": f"Bearer {os.environ['GH_TOKEN']}",
+                  "Content-Type": "application/json"
+              }
+          )
+
+          with urllib.request.urlopen(request) as response:
+              result = json.loads(response.read())
+
+          if "errors" in result:
+              raise RuntimeError(result["errors"])
+
+          count = result["data"]["user"]["contributionsCollection"]["contributionCalendar"]["totalContributions"]
+
+          with open("README.md", "r", encoding="utf-8") as file:
+              readme = file.read()
+
+          badge = f'''<!-- CONTRIBUTIONS:START -->
+          <a href="https://github.com/aditya-desale">
+          <img src="https://img.shields.io/badge/GitHub_Contributions-{count}-238636?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Contributions: {count}" />
+          </a>
+          <!-- CONTRIBUTIONS:END -->'''
+
+          updated = re.sub(
+              r"<!-- CONTRIBUTIONS:START -->.*?<!-- CONTRIBUTIONS:END -->",
+              badge,
+              readme,
+              flags=re.DOTALL
+          )
+
+          if updated == readme:
+              print("Contribution count is already up to date.")
+          else:
+              with open("README.md", "w", encoding="utf-8") as file:
+                  file.write(updated)
+
+          print(f"Current contribution count: {count}")
+          PY
+
+      - name: Commit updated README
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --cached --quiet || (
+            git commit -m "chore: update GitHub contribution count"
+            git push
+          )
