@@ -18,6 +18,14 @@
 
 ## 🚀 Shipped Products
 
+### 📄 [iLoveResume](https://iloveresume.online) — Resume Building Platform
+
+Built and deployed a resume platform focused on helping users build, check, and tailor their resumes. Worked across product design, feature development, testing, and deployment.
+
+**Focus:** Resume Building · AI-Assisted Development · Product Design · Testing · Netlify
+
+---
+
 ### 🤖 [Kendu AI](https://kendu.online) — Conversational AI Platform
 
 Full AI platform with voice I/O, 8 persona modes, image generation, PDF export, and calendar scheduler. Shipped as a single HTML file on Netlify.
