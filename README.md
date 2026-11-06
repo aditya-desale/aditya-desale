@@ -1,3 +1,4 @@
+
 <div align="center">
 
 <h1>Aditya Desale</h1>
@@ -11,11 +12,25 @@
 <a href="https://www.linkedin.com/in/aditya-desale-40b709335"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>&nbsp;
 <a href="mailto:adidesle@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
 
+<br><br>
+
+<a href="https://github.com/aditya-desale">
+  <img src="https://streak-stats.demolab.com?user=aditya-desale&hide_current_streak=true&hide_longest_streak=true&card_width=200" alt="GitHub Contributions" />
+</a>
+
 </div>
 
 ---
 
 ## 🚀 Shipped Products
+
+### 📄 [iLoveResume](https://iloveresume.online) — Resume Building Platform
+
+Built and deployed a resume platform focused on helping users build, check, and tailor their resumes. Worked across product design, feature development, testing, and deployment.
+
+**Focus:** Resume Building · AI-Assisted Development · Product Design · Testing · Netlify
+
+---
 
 ### 🤖 [Kendu AI](https://kendu.online) — Conversational AI Platform
 
@@ -73,4 +88,4 @@ Detects fake reviews, deepfakes, and misinformation in under 3 seconds. 5 scan m
 
 ---
 
-<div align="center"><sub>Built with obsession</sub></div>
+<div align="center"><sub>Built with obsession · AD // SYS v2.6.1</sub></div>
